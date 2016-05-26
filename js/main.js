@@ -176,9 +176,9 @@ function clearMarker() {
 // }
 
 function dropMarker(marker) {
-  return function() {
+  // return function() {
     marker.setMap(map);
-  };
+  // };
 }
 
 // function addResult(result, i) {
