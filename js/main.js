@@ -2,7 +2,7 @@ var map, places, infoWindow;
 var marker = null;
 var autocomplete;
 var countryRestrict = {'country': 'au'};
-// var MARKER_PATH = 'https://maps.gstatic.com/intl/en_us/mapfiles/marker_green';
+var MARKER_PATH = 'https://maps.gstatic.com/intl/en_us/mapfiles/marker_green';
 var hostnameRegexp = new RegExp('^https?://.+?/');
 
 var countries = {
