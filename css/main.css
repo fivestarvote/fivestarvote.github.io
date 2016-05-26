@@ -100,9 +100,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#intro {
+  text-align: center;
+}
+
+#locationField, #autocomplete {
+  width: 80%;
+  margin: 0 auto;
+}
+
 #map {
   height: 100%;
 }
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
