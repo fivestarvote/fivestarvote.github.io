@@ -153,8 +153,10 @@ function onPlaceChanged() {
 // }
 
 function clearMarker() {
-  marker.setMap(null);
-  marker = null;
+  if(marker !== null) {
+    marker.setMap(null);
+    marker = null;
+  }
 }
 
 // // Set the country restriction based on user input.
