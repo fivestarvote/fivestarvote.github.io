@@ -102,12 +102,11 @@ function onPlaceChanged() {
     // search();
     // clearResults();
     clearMarker();
-    // var markerIcon = MARKER_PATH + markerLetter + '.png';
+    var markerIcon = MARKER_PATH + 'A' + '.png';
     marker = new google.maps.Marker({
       position: place.geometry.location,
-      animation: google.maps.Animation.DROP
-      // ,
-      // icon: markerIcon
+      animation: google.maps.Animation.DROP,
+      icon: markerIcon
     });
     // If the user clicks on the marker, show the details of that business
     // in an info window.
